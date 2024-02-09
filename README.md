@@ -7,16 +7,17 @@
 
 3) You need to generate config files for each firmware in advance.
 i.e. go to your klipper folder.
+```
 make menuconfig
-cp .config klipper_canbus_flasher/firmware_menuconfigs/board_name
-
+cp .config {your_klipper_flasher_folder}/firmware_menuconfigs/{board_name}
+```
 Where board_name will match what you will define at the top of the klipper_flasher.sh script.
 
 4) Two types of flashing are supported for canbus usb passthrough devices, and regular canbus devices.
 regular canbus devices
-ebb42_flash_type="CAN"
+`ebb42_flash_type="CAN"`
 usb passthrough
-manta_flash_type="CAN_USB"
+`manta_flash_type="CAN_USB"`
 
 Each board needs the canbus_uuid defined, and if it's a board with canbus usb passhtrough serial_uuid as well.
 
