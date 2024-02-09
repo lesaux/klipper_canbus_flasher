@@ -1,6 +1,8 @@
 # klipper_canbus_flasher
  A bash script to flash klipper.
 
+For each board you specify, the script will compile the firmware and then flash it.
+
 1) You probably need to be comfortable with bash before playing around with this.
 
 2) The firmware configs in this repo are set to 500000 bauds.
