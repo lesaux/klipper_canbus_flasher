@@ -1,6 +1,7 @@
 # klipper_canbus_flasher
  A bash script to flash klipper via canbus.
- This assumes you have Katapult readyto go!
+
+ This assumes you have Katapult ready to go!
 
 For each board you specify, the script will compile the firmware and then flash it.
 
