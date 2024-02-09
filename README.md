@@ -17,7 +17,7 @@ cp .config {your_klipper_flasher_folder}/firmware_menuconfigs/{board_name}
 ```
 Where board_name will match what you will define at the top of the klipper_flasher.sh script.
 
-4) Two types of flashing are supported for canbus usb passthrough devices, and regular canbus devices.
+4) Two types of flashing are supported for canbus usb passthrough devices (manta's and octopus's), and regular canbus devices.
 regular canbus devices
 `ebb42_flash_type="CAN"`
 usb passthrough
