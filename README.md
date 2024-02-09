@@ -35,7 +35,9 @@ mmb_flash_type="CAN"
 
 5) Finally set the $BOARDS variable to a list of boards you want to flash.
 in my case:
+```
 BOARDS="octopus_max ebb42 mmb"
+```
 
 6) launch the flash!
 Here's an example of it going through my 3 boards.
