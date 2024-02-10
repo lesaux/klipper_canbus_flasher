@@ -5,6 +5,8 @@
 
 For each board you specify, the script will compile the firmware and then flash it.
 
+Once you have done your updates in mainsail, you can launch the script to have it flash all of your devices sequentially.
+
 1) You probably need to be comfortable with bash before playing around with this.
 
 2) The firmware configs in this repo are set to 500000 bauds.
@@ -13,6 +15,9 @@ For each board you specify, the script will compile the firmware and then flash 
 i.e. go to your klipper folder.
 ```
 make menuconfig
+```
+save and exit
+```
 cp .config {your_klipper_flasher_folder}/firmware_menuconfigs/{board_name}
 ```
 Where board_name will match what you will define at the top of the klipper_flasher.sh script.
