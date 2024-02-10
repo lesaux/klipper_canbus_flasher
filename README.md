@@ -9,7 +9,7 @@ For each board you specify, the script will compile the firmware and then flash 
 
 2) The firmware configs in this repo are set to 500000 bauds.
 
-3) You need to generate config files for each firmware in advance.
+3) You can use your own firmware configs: you need to generate config files for each firmware in advance.
 i.e. go to your klipper folder.
 ```
 make menuconfig
